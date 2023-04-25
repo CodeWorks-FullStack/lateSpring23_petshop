@@ -1,0 +1,60 @@
+:root {
+  --page-bg: #FFF6F0;
+  --primary: #713EDD;
+  --text: #16063B;
+  --accent: #3BB9B3;
+}
+
+body {
+  margin: 0;
+  background-color: var(--page-bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+.dark {
+  background-color: var(--text);
+  color: var(--page-bg);
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 1rem
+}
+
+
+/* HEADER STYLES */
+
+.nav-logo {
+  margin: .5rem .75rem;
+}
+
+.active-link{
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: underline;
+}
